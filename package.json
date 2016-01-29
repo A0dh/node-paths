@@ -1,0 +1,14 @@
+{
+  "name": "paths",
+  "version": "1.0.0",
+  "description": "Path manager for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrej Burcev <andrej.burcev@yahoo.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
