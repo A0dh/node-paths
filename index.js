@@ -30,6 +30,13 @@ module.exports = {
         });
         options.envDirs = _envDirs;
 
+        Object.keys(options.envDirs).forEach(function(key){
+            if (!options.dirMaps[key]) {
+                options.dirMaps[key] = 'dist';
+            }
+        });
+
+
         if (!options.dirNames.bower) {
             var bowerc = {};
             try {
@@ -42,12 +49,12 @@ module.exports = {
     },
     getOptionsDefault: function getOptionsDefault() {
         var options = {
+            strict: true,
             projectDir: process.cwd(),
             env: 'dev',
             envDirs: {},
             dirNames: {
                 project: '',
-                app: 'app',
                 dist: 'dist',
                 tmp: '.tmp',
                 dev: 'dev',
