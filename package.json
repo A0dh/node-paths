@@ -1,5 +1,5 @@
 {
-  "name": "node-paths",
+  "name": "nodejs-paths",
   "version": "1.0.0",
   "description": "Path manager for node",
   "main": "index.js",
