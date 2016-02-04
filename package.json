@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrej Burcev <andrej.burcev@yahoo.co.uk>",
+  "repository" : { 
+     "type" : "git",
+     "url" : "https://github.com/A0dh/node-paths"
+  },
   "license": "ISC",
   "dependencies": {
     "extend": "^3.0.0"
