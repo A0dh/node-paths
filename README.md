@@ -1,5 +1,11 @@
-# node-paths
+# nodejs-paths
 Path name manager for nodejs
+
+#Installation
+
+`npm install nodejs-paths`
+
+#Description
 
 This is a paths management to maintain path names in one place. Is particularly useful with task managers, such as gulp
 or grunt.
