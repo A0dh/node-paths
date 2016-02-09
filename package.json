@@ -1,6 +1,6 @@
 {
   "name": "nodejs-paths",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Path manager for node",
   "main": "index.js",
   "scripts": {
