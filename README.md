@@ -36,7 +36,7 @@ To create path manager to work with this structure:
 Configuration:
 
 ```
-var paths = require('paths');
+var paths = require('nodejs-paths');
 var p = paths.create({
     strict: true,
     env: 'dev',
