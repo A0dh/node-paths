@@ -1,11 +1,11 @@
 # nodejs-paths
 Path name manager for nodejs
 
-#Installation
+# Installation
 
 `npm install nodejs-paths`
 
-#Description
+# Description
 
 This is a paths management to maintain path names in one place. Is particularly useful with task managers, such as gulp
 or grunt.
@@ -97,7 +97,7 @@ p.client_components() => /path/to/project/client/client/components
 p.env
 ```
 
-#Relative paths
+# Relative paths
 
 Relative paths can be accessed by `p.__r.{dirName}`, i.e.
 
@@ -107,7 +107,7 @@ p.__r.env() => dist/dev
 p.__r.env.server_views() => dist/dev/client/components
 ```
 
-#Path construction
+# Path construction
 
 For example, we need to generate the path to the file that is located in client/assets/img/logo.png and client/assets/img2/another.png
 To start with, we need to add to config following values:
